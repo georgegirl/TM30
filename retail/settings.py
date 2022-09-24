@@ -89,13 +89,22 @@ WSGI_APPLICATION = 'retail.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dk8o85fj3fckt',
+        'USER': 'ixpankabcwvvbu',
+        'PASSWORD': '773f6f260a53f733e6f62c68e74c86be20460cca5c61062b18d5defdaa5a5635',
+        'HOST': 'ec2-35-168-122-84.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
