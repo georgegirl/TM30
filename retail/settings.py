@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [ '127.0.0.1','favour-retail.herokuapp.com']
 
@@ -142,7 +142,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = "account.User"
 
-EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend' 
 EMAIL_HOST=  'smtp.gmass.co.'
 EMAIL_PORT= 465
 EMAIL_HOST_USER= 'gmass'
@@ -152,7 +152,7 @@ EMAIL_USE_SSL= False
 DEFAULT_FROM_EMAIL= 'GLORIA TECHSPACE <noreply@george.com>'
 
 SITE_NAME ="favour's_retail"
-DOMAIN= "Right_stuff.com"
+DOMAIN= "Retail.com"
 
 
 
