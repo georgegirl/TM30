@@ -1,7 +1,7 @@
 PROJECT EXPLANATION
 ENDPOINTS:
 
-*CATEGORY ENDPOINT:
+CATEGORY ENDPOINT:
 Each endpoint point to various aspect of the mrs Favours retail business. The category api point to the various items the retail business have in their inventory, which has grains& cerals, brews and juice, chocolate, candy, protein to name a few.
 The get endpoint provides all the the category of products the have. 
 The post endpoint provides ability to the admin (mrs favour) to add to the category od product they have
@@ -29,5 +29,7 @@ IsUser: provides access to the user who is logged in and has been authenticated.
 To Access the Database:
 USERNAME: Gloria
 PASSWORD: ikpemosime
+
+
 
 
